@@ -7,7 +7,7 @@ function App() {
     <Router>
     <div className='max-w-screen-md mx-auto pt-20'>
     <Routes>
-          <Route path="/" element={<Home/> } />
+          <Home />
           </Routes>
       </div>
       </Router>

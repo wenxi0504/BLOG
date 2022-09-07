@@ -6,9 +6,7 @@ function App() {
   return (
     <Router>
     <div className='max-w-screen-md mx-auto pt-20'>
-    <Routes>
-          <Route path="/" element={<Home/> } />
-          </Routes>
+     <Home/>
       </div>
       </Router>
   );
