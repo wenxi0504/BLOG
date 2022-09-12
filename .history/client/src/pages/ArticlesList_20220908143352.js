@@ -14,15 +14,6 @@ const ArticlesList = () => {
                               <Link to={`/article/${article.name}`}>
                                   <img className='lg:h-48 md:h-36 w-full object-cover object-center' src={ article.thumbnail} alt="blog"/>
                               </Link>
-                              <div className='p-6'>
-                                  <Link key={index} to={`/article/${article.name}`}>
-                                      <h3 className="text-lg font-medium text-gray-900 mb-3">{ article.title}</h3>
-                                  </Link>
-                                  <p className='leading-relax mb-3'>
-                                      { article.content[0].substring(0,115)}...
-                                  </p>
-                                 
-                              </div>
                           </div>
                       </div>
                   ))}

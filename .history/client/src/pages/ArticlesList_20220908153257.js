@@ -21,7 +21,6 @@ const ArticlesList = () => {
                                   <p className='leading-relax mb-3'>
                                       { article.content[0].substring(0,115)}...
                                   </p>
-                                 
                               </div>
                           </div>
                       </div>
