@@ -2,7 +2,7 @@ import React from 'react'
 
 //Components
 import Articles from '../components/Articles'
-import articleContent from './articleContent'
+
 const ArticlesList = () => {
   return (
       <div>

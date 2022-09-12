@@ -24,7 +24,7 @@ const Article = () => {
            ))}
           <h1 className="sm:text-2xl text-xl font-bold my-4 text-gray-900 "> Other Articles</h1>
           <div className="flex flex-warp -m-4">
-                <Articles articles={ otherArticles} />
+                <Articles artciles={ otherArticles} />
           </div>
     </>
   )
