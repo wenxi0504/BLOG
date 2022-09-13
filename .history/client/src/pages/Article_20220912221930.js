@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import articleContent from './articleContent'
 import Articles from '../components/Articles'
-import NotFound from './NotFound'
 
 
 
